@@ -2401,7 +2401,7 @@ class PieDelete(Menu):
         #1 - BOTTOM - LEFT
         box = pie.split().column()
         row = box.row(align=True)
-        box.operator("delete.limiteddissolve", text="Limited Dissolve", icon= 'STICKY_UVS_LOC')
+        box.operator("mesh.dissolve_limited", text="Limited Dissolve", icon= 'STICKY_UVS_LOC')
         box.operator("mesh.delete_edgeloop", text="Delete Edge Loops", icon='BORDER_LASSO')
         box.operator("mesh.edge_collapse", text="Edge Collapse", icon='UV_EDGESEL')
         #3 - BOTTOM - RIGHT
